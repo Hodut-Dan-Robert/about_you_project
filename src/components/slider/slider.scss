@@ -1,0 +1,89 @@
+.appp {
+    max-width: 90%;
+    margin:0 auto;
+    margin-top: 70px;
+    max-height: 800px;
+
+    h2 {
+        font-size: 23px;
+        letter-spacing: -1px;
+        margin: 5px;
+    }
+    p{
+        margin: 15px 10px ;
+        font-size: 20px;
+        
+
+
+
+    }
+
+
+    .slick-prev  {
+        background-color: #cbc6c3; 
+        color: #000;
+        width: 35px;
+        height: 100px;
+        z-index: 500;
+        margin-left: 26px;    
+        &:hover{
+            width: 45px;
+        }
+
+
+      
+
+    }
+    .slick-next  {
+        background-color: #cbc6c3 ; 
+        color: #000;
+        width: 35px;
+        height: 100px;
+        z-index: 500;
+        margin: 0 44px;
+        opacity: 0.9;
+        &:hover{
+            width: 45px;
+        }
+       
+    }
+}
+
+
+.card {
+    border: 1px solid #fff;
+
+
+    .card-top{
+        position: relative;
+       
+        img{
+            width: 435px;
+            height: 600px;
+        }
+        p{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .heart-f-slider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            margin-left: 80%;
+            margin-top: -640px;
+            width: 60px;
+            height: 40px;
+            background-color: #d9e9f2;
+        }
+    }
+    }
+
+    .card-bottom {
+        height: 100px;
+        p{
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+

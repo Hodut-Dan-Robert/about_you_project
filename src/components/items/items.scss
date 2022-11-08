@@ -1,0 +1,39 @@
+.items-div {
+    margin-top: -800px;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    margin-left: 300px;
+    width: 1220px;
+    flex-wrap: wrap;
+
+    .items-div-1{
+        
+        .items-div-2 {
+            &:hover .items-div-2-2{
+                visibility: visible;
+                opacity: 1;
+                transition: visibility 0s, opacity 0.5s linear;
+            }  
+            .items-div-2-1{
+                img{
+                    width: 283px;
+                    height: 376px;
+                }
+            }
+            .items-div-2-2{
+            position: absolute;
+            top: 20px ;
+            visibility: hidden;
+            opacity: 0;
+                img{
+                    width: 283px;
+                    height: 376px;
+                }
+            }
+        }
+    }
+ 
+
+}

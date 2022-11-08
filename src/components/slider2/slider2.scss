@@ -1,0 +1,100 @@
+.appp2 {
+    max-width: 90%;
+    margin:0 auto;
+    margin-top: 70px;
+    max-height: 800px;
+
+    h2 {
+        font-size: 23px;
+        letter-spacing: -1px;
+        margin: 5px;
+    }
+    p{
+        margin: 15px 10px ;
+        font-size: 20px;
+        
+
+
+
+    }
+
+
+    .slick-prev  {
+        background-color: #cbc6c3 ;
+        color: #000;
+        width: 35px;
+        height: 100px;
+        z-index: 500;
+        margin-left: 27px;    
+        opacity: 0.9;
+        &:hover{
+            width: 45px;
+        }
+
+      
+
+    }
+    .slick-next  {
+        background-color: #cbc6c3 ;
+        color: #000;
+        width: 35px;
+        height: 100px;
+        z-index: 500;
+        margin: 0 30px;
+        opacity: 0.9;
+
+        &:hover{
+            width: 45px;
+        }
+    }
+}
+
+
+
+.card2 {
+    border: 1px solid #fff;
+    position: relative;
+    &:hover .card-top3{
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.5s linear;
+    }    
+    .card-top3{
+        position: absolute;
+        bottom: 100px;
+        visibility: hidden;
+        opacity: 0;
+
+        img{
+            width: 450px;
+            height: 600px;
+           
+        }
+        p{
+            font-size: 20px;
+            margin-top: 10px;
+        }}
+
+    .card-top2{
+        cursor: pointer;
+       
+        img{
+            width: 450px;
+            height: 600px;
+           
+        }
+        p{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+      
+
+    .card-bottom {
+        height: 100px;
+        p{
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+}
+}

@@ -1,0 +1,276 @@
+.box{
+    position: relative;
+    width: 1px;
+    height: 1px;
+
+
+        .box1{
+            margin-top: 85px;
+            opacity: 1;
+            width: 620px;
+            height: 650px;
+            background-color: white;
+            position: absolute;
+            margin-left: 500px;
+            border-radius: 2px;
+            z-index: 999;
+            border: 1px solid #cccccc;
+           
+            
+    
+            .box2{
+                height: 650px;
+                overflow: hidden;
+                overflow-y: scroll;
+                .box-1 {
+                    width: 620px;
+                    height: 75px;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 15px;
+                    border: 1px solid #e4e4e4;
+                    
+                    .box-exit {
+                        position: relative;
+                        button{
+                            position: absolute;
+                            border: none;
+                            background-color: transparent;
+                            font-size: 20px;
+                            font-weight: 900;
+                            left: 220px;
+                            bottom: 5px;
+                            cursor: pointer;
+                        }
+                    }
+    
+                }
+            }
+            .box-2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+                background-color: white;
+                .butoane {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    button{
+                        font-size: 12px;
+                        font-weight: 600;
+                        width: 160px;
+                        height: 40px;
+                        background-color: white;
+                        border: 1px solid #f2f2f2;
+                        cursor: pointer;
+                        border-radius: 5px;
+                    }
+                }
+                .butoane-2{
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 20px;
+                    gap: 20px;
+                    
+                    .facebook{
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        width: 250px;
+                        height: 45px;
+                        background-color: #1877f2;
+                        color: white;
+                        font-weight: 600;
+                        border-radius: 2px;
+    
+                        img {
+                            width: 50px;
+                            height: 30px;
+                        }
+                        span {
+                            margin-right: 70px;
+                        }
+    
+                    }
+                    .Apple{
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        width: 250px;
+                        height: 45px;
+                        background-color: white;
+                        color: black;
+                        font-weight: 600;
+                        border: 1px solid #cccccc;
+                        border-radius: 2px;
+                        img {
+                            width: 30px;
+                            height: 30px;
+                        }
+                        span {
+                            margin-right: 70px;
+                        }
+    
+                    }
+                  
+                }
+                .line{
+                    color: #cccccc;
+    
+                    p{
+                        margin: 10px auto;
+                        text-align: center;
+                        font-size: 13px;
+                        max-width: 600px;
+                        position: relative;
+                        color: #cccccc;
+                        &::before{
+                            content: "*";
+                            display: block;
+                            width: 190px;
+                            height: 1px;
+                            background: #cccccc;
+                            position: absolute;
+                            left: -115% ;
+                            top: 50%;
+    
+                        }
+                        &::after{
+                            content: "";
+                            display: block;
+                            width: 180px;
+                            height: 1px;
+                            background: #cccccc;
+                            position: absolute;
+                            right: -115% ;
+                            top: 50%;
+    
+                        }
+    
+                    }
+                }
+    
+            }
+            .box-3 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                background-color: white;
+                input {
+                    width: 250px;
+                    height: 50px;
+                    margin: 10px;
+                    color: #f2f2f2;
+                    border: 1px solid #cccccc;
+                    
+                }
+            }
+            .box-4 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 30px;
+                gap: 10px;
+                background-color: white;
+                p{
+                    font-size: 18px;
+                    margin-left: 10px;
+                    font-weight: 600;
+                }
+    
+                .label{
+        display: flex;
+        margin: 0 15px;
+        gap: 20px;
+            :checked{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        margin: 0 4px;
+        opacity: 1;
+                    }
+                    .label-1 {
+                        display: flex;
+                      
+                    }
+                    .label-2 {
+                        display: flex;
+                    }
+    
+                }
+            }
+            .box-5 {
+                display: flex;
+                justify-content: space-between;
+                margin: 15px;
+                width: 580px;
+                height: 50px;
+                gap: 10px;
+                background-color: white;
+                
+                :checked{
+                    width: 30px;
+                    height: 20px;
+                    border: 1px solid #cccccc;
+                    margin: 0 4px;
+                    opacity: 1; }
+                input {
+                    margin-left: 10px;
+                    
+                }
+    
+                 p{
+                    font-size: 13px;
+                    color: #cccccc;
+                    text-align: start;
+                    font-weight: 600;
+    
+                 }
+    
+            }
+            .box-6 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                button {
+                    width: 260px;
+                    height: 50px;
+                    background-color: #000;
+                    color: white;
+                    border-radius: 2px;
+                }
+            }
+            .box-7 {
+                display: flex;
+                justify-self: center;
+                align-items: center;
+                width: 580px;
+                height: 50px;
+                margin: 20px;
+                p{
+                    font-size: 12px;
+                    font-weight: 900;
+                    text-align: start;
+                    color: #cccccc;
+                }
+            }
+        }
+    }
+    
+    .box-width {
+        width: 1520px;
+        height: 740px;
+        background-color: #42484a ;
+        opacity: 0.9;
+        z-index: 999;
+        position: absolute;
+    
+    }

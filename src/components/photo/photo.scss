@@ -1,0 +1,17 @@
+.photo{
+    position: relative;
+    margin-top: -140px;
+    width: 1450px;
+    height: 660px;
+    background-color: white;
+    cursor: pointer;
+    a{
+    margin:0  70px;
+
+        position: absolute;
+        img{
+            width: 1400px;
+            height: 600px;
+        }
+    }
+}
